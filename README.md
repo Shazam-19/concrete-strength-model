@@ -9,7 +9,8 @@ This project uses a neural network with _adam_ *optimizer* and _mean squared err
 - Step 1: The model is trained 50 times on different samples of data(30% of the data for validation) 
 - Step 2: Each loop we evaluate the model using _MSE_ and store the result in a list of mean squared errors
 - Step 3: After the model is trained and evaluated 50 times, we calculate the mean and standard deviation of the list of mean squared errors
-- Step 5: Repeat the steps again(from Step 1), using different epochs and adding new layers to the neural network
+- Step 5: Repeat the process again(from Step 1), using different epochs and adding new layers to the neural network
+- Step 6: Compare the difference between _means_ and _STDs_ of each model.
 
 I got a full grade of 20/20 after my _peers_ in the course reviewed my submission which matched the required points were given in the description of the project.
 
